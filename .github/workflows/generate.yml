@@ -1,6 +1,8 @@
 name: Generate Levels
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
   schedule:
     - cron: '0 0 * * 1' # 每周一自动运行
@@ -23,10 +25,11 @@ jobs:
         run: npm run generate
 
       - name: Commit and Push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add levels/
-          git commit -m "Auto-generate 100 structured levels via TS pool" || echo "No changes to commit"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git push
+          git commit -m "Auto-generate 100 structured levels via TS pool [skip ci]" || echo "No changes to commit"
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/DeshaunH/flow-free-levels.git HEAD:main
