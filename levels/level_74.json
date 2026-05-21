@@ -4,22 +4,22 @@
   "grid": [
     [
       {
-        "type": "normal",
-        "color": 1,
-        "isEndpoint": true
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
         "type": "block",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
         "color": 0,
         "isEndpoint": false
       },
@@ -51,12 +51,136 @@
         "isEndpoint": false
       },
       {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "tunnel",
+        "color": 0,
+        "isEndpoint": false,
+        "tunnelId": 1,
+        "tunnelColor": "#FF0000",
+        "tunnelActivatedColor": null
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 1,
+        "isEndpoint": true
+      },
+      {
+        "type": "normal",
+        "color": 7,
+        "isEndpoint": true
+      }
+    ],
+    [
+      {
         "type": "block",
         "color": 0,
         "isEndpoint": false
       },
       {
         "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 5,
+        "isEndpoint": true
+      },
+      {
+        "type": "normal",
+        "color": 6,
+        "isEndpoint": true
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      }
+    ],
+    [
+      {
+        "type": "block",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 8,
+        "isEndpoint": true
+      },
+      {
+        "type": "harmony",
+        "color": 0,
+        "isEndpoint": false,
+        "colorSeq": [
+          8,
+          6
+        ],
+        "maxShift": 1
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "block",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      }
+    ],
+    [
+      {
+        "type": "block",
         "color": 0,
         "isEndpoint": false
       },
@@ -79,167 +203,6 @@
         "isEndpoint": false
       },
       {
-        "type": "block",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      }
-    ],
-    [
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 5,
-        "isEndpoint": true
-      },
-      {
-        "type": "normal",
-        "color": 3,
-        "isEndpoint": true
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 5,
-        "isEndpoint": true
-      }
-    ],
-    [
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "tunnel",
-        "color": 0,
-        "isEndpoint": false,
-        "tunnelId": 1,
-        "tunnelColor": "#FF0000",
-        "tunnelActivatedColor": null
-      },
-      {
-        "type": "normal",
-        "color": 7,
-        "isEndpoint": true
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 7,
-        "isEndpoint": true
-      }
-    ],
-    [
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "harmony",
-        "color": 0,
-        "isEndpoint": false,
-        "colorSeq": [
-          1,
-          2
-        ],
-        "maxShift": 1
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      }
-    ],
-    [
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "block",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
         "type": "normal",
         "color": 1,
         "isEndpoint": true
@@ -250,18 +213,9 @@
         "isEndpoint": false
       },
       {
-        "type": "normal",
+        "type": "block",
         "color": 0,
         "isEndpoint": false
-      },
-      {
-        "type": "bridge",
-        "color": 0,
-        "isEndpoint": false,
-        "bridgeColors": [
-          7,
-          3
-        ]
       },
       {
         "type": "normal",
@@ -271,27 +225,7 @@
     ],
     [
       {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
+        "type": "block",
         "color": 0,
         "isEndpoint": false
       },
@@ -309,9 +243,43 @@
         "type": "normal",
         "color": 4,
         "isEndpoint": true
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "bridge",
+        "color": 0,
+        "isEndpoint": false,
+        "bridgeColors": [
+          1,
+          7
+        ]
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
       }
     ],
     [
+      {
+        "type": "block",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
       {
         "type": "normal",
         "color": 0,
@@ -337,17 +305,7 @@
         "isEndpoint": false
       },
       {
-        "type": "block",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "block",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "block",
+        "type": "normal",
         "color": 0,
         "isEndpoint": false
       },
@@ -359,19 +317,29 @@
     ],
     [
       {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
         "type": "block",
         "color": 0,
         "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 4,
+        "isEndpoint": true
       },
       {
         "type": "normal",
@@ -388,30 +356,25 @@
       },
       {
         "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
+        "color": 7,
+        "isEndpoint": true
       }
     ],
     [
       {
+        "type": "block",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
         "type": "normal",
         "color": 0,
         "isEndpoint": false
       },
       {
-        "type": "block",
-        "color": 0,
-        "isEndpoint": false
+        "type": "normal",
+        "color": 2,
+        "isEndpoint": true
       },
       {
         "type": "tunnel",
@@ -423,34 +386,39 @@
       },
       {
         "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
         "color": 6,
+        "isEndpoint": true
+      },
+      {
+        "type": "normal",
+        "color": 5,
+        "isEndpoint": true
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 3,
         "isEndpoint": true
       }
     ],
     [
       {
+        "type": "block",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
         "type": "normal",
-        "color": 4,
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 8,
         "isEndpoint": true
       },
       {
@@ -462,20 +430,6 @@
         "type": "normal",
         "color": 0,
         "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "bridge",
-        "color": 0,
-        "isEndpoint": false,
-        "bridgeColors": [
-          4,
-          3
-        ]
       },
       {
         "type": "normal",
@@ -495,9 +449,9 @@
     ],
     [
       {
-        "type": "normal",
-        "color": 2,
-        "isEndpoint": true
+        "type": "block",
+        "color": 0,
+        "isEndpoint": false
       },
       {
         "type": "normal",
@@ -515,10 +469,31 @@
         "isEndpoint": false
       },
       {
+        "type": "bridge",
+        "color": 0,
+        "isEndpoint": false,
+        "bridgeColors": [
+          3,
+          6
+        ]
+      },
+      {
         "type": "normal",
         "color": 0,
         "isEndpoint": false
       },
+      {
+        "type": "block",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "block",
+        "color": 0,
+        "isEndpoint": false
+      }
+    ],
+    [
       {
         "type": "block",
         "color": 0,
@@ -531,312 +506,315 @@
       },
       {
         "type": "normal",
-        "color": 6,
-        "isEndpoint": true
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "block",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "block",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "block",
+        "color": 0,
+        "isEndpoint": false
       }
     ]
   ],
   "solutionPaths": {
     "1": [
       [
-        0,
-        0
-      ],
-      [
-        0,
-        1
-      ],
-      [
-        0,
-        2
-      ],
-      [
-        1,
-        2
-      ],
-      [
-        2,
-        2
-      ],
-      [
-        2,
-        1
-      ],
-      [
-        2,
-        0
-      ],
-      [
-        3,
-        0
-      ],
-      [
         4,
-        0
-      ],
-      [
-        4,
-        1
-      ],
-      [
-        4,
-        2
-      ],
-      [
-        4,
-        3
+        4
       ],
       [
         5,
-        3
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        1,
+        6
       ]
     ],
     "2": [
       [
-        11,
-        0
-      ],
-      [
-        11,
-        1
-      ],
-      [
-        10,
-        1
-      ],
-      [
-        10,
+        8,
         2
       ],
       [
-        9,
+        7,
         2
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        6,
+        4
       ]
     ],
     "3": [
       [
-        2,
+        10,
+        2
+      ],
+      [
+        10,
+        3
+      ],
+      [
+        10,
+        4
+      ],
+      [
+        10,
         5
       ],
       [
-        2,
-        6
-      ],
-      [
-        3,
-        6
-      ],
-      [
-        4,
-        6
-      ],
-      [
-        5,
-        6
-      ],
-      [
-        6,
-        6
-      ],
-      [
-        6,
+        9,
         5
       ],
       [
-        6,
-        4
+        9,
+        6
       ],
       [
-        5,
-        4
+        8,
+        6
       ],
       [
-        4,
-        4
-      ],
-      [
-        3,
-        4
+        8,
+        7
       ]
     ],
     "4": [
       [
+        5,
+        3
+      ],
+      [
         6,
-        7
+        3
       ],
       [
         7,
-        7
+        3
       ],
       [
-        8,
-        7
-      ],
-      [
-        8,
-        6
-      ],
-      [
-        8,
-        5
-      ],
-      [
-        9,
-        5
-      ],
-      [
-        10,
-        5
-      ],
-      [
-        10,
+        7,
         4
-      ],
-      [
-        10,
-        3
-      ],
-      [
-        9,
-        3
-      ],
-      [
-        8,
-        3
-      ],
-      [
-        7,
-        3
-      ],
-      [
-        6,
-        3
-      ],
-      [
-        6,
-        2
-      ],
-      [
-        6,
-        1
-      ],
-      [
-        7,
-        1
-      ],
-      [
-        8,
-        1
-      ],
-      [
-        8,
-        0
-      ],
-      [
-        9,
-        0
-      ],
-      [
-        10,
-        0
       ]
     ],
     "5": [
       [
         2,
-        7
+        2
       ],
       [
         1,
-        7
-      ],
-      [
-        0,
-        7
-      ],
-      [
-        0,
-        6
-      ],
-      [
-        0,
-        5
-      ],
-      [
-        1,
-        5
-      ],
-      [
-        1,
-        4
-      ],
-      [
-        2,
-        4
+        2
       ]
     ],
     "6": [
       [
-        9,
-        7
+        2,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        8,
+        1
       ],
       [
         9,
-        6
+        1
       ],
       [
         10,
-        6
+        1
       ],
       [
         11,
-        6
+        1
       ],
       [
         11,
-        7
+        2
+      ],
+      [
+        11,
+        3
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        10,
+        4
+      ],
+      [
+        9,
+        4
+      ],
+      [
+        8,
+        4
       ]
     ],
     "7": [
       [
-        3,
-        5
+        1,
+        7
       ],
       [
-        4,
-        5
+        0,
+        7
       ],
       [
-        5,
-        5
-      ],
-      [
-        5,
+        0,
         6
       ],
       [
-        5,
-        7
+        0,
+        5
       ],
       [
-        4,
-        7
+        1,
+        5
+      ],
+      [
+        2,
+        5
       ],
       [
         3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        6,
         7
+      ],
+      [
+        7,
+        7
+      ]
+    ],
+    "8": [
+      [
+        9,
+        2
+      ],
+      [
+        9,
+        3
+      ],
+      [
+        8,
+        3
       ]
     ]
   },
   "metadata": {
     "cols": 8,
     "rows": 12,
-    "colors": 7,
-    "walls": 13,
+    "colors": 8,
+    "walls": 21,
     "bridges": 3,
     "hasBlend": true,
     "multiColorCount": 0,
     "tunnels": 2,
-    "generatedAt": "2026-05-21T04:22:20.903Z"
+    "generatedAt": "2026-05-21T04:38:00.571Z"
   }
 }

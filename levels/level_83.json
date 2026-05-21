@@ -5,6 +5,31 @@
     [
       {
         "type": "normal",
+        "color": 2,
+        "isEndpoint": true
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
         "color": 7,
         "isEndpoint": true
       },
@@ -14,244 +39,12 @@
         "isEndpoint": false
       },
       {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 4,
-        "isEndpoint": true
-      }
-    ],
-    [
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
         "type": "block",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "bridge",
-        "color": 0,
-        "isEndpoint": false,
-        "bridgeColors": [
-          7,
-          4
-        ]
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
         "color": 0,
         "isEndpoint": false
       }
     ],
     [
-      {
-        "type": "block",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "tunnel",
-        "color": 0,
-        "isEndpoint": false,
-        "tunnelId": 1,
-        "tunnelColor": "#FF0000",
-        "tunnelActivatedColor": null
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "block",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      }
-    ],
-    [
-      {
-        "type": "block",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "tunnel",
-        "color": 0,
-        "isEndpoint": false,
-        "tunnelId": 1,
-        "tunnelColor": "#FF0000",
-        "tunnelActivatedColor": null
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "block",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      }
-    ],
-    [
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      }
-    ],
-    [
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 1,
-        "isEndpoint": true
-      },
-      {
-        "type": "bridge",
-        "color": 0,
-        "isEndpoint": false,
-        "bridgeColors": [
-          1,
-          5
-        ]
-      },
-      {
-        "type": "normal",
-        "color": 1,
-        "isEndpoint": true
-      },
-      {
-        "type": "normal",
-        "color": 2,
-        "isEndpoint": true
-      },
       {
         "type": "normal",
         "color": 0,
@@ -262,8 +55,8 @@
         "color": 0,
         "isEndpoint": false,
         "colorSeq": [
-          7,
-          5
+          5,
+          2
         ],
         "maxShift": 1
       },
@@ -271,21 +64,9 @@
         "type": "normal",
         "color": 0,
         "isEndpoint": false
-      }
-    ],
-    [
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
       },
       {
-        "type": "normal",
-        "color": 6,
-        "isEndpoint": true
-      },
-      {
-        "type": "normal",
+        "type": "block",
         "color": 0,
         "isEndpoint": false
       },
@@ -308,11 +89,6 @@
         "type": "normal",
         "color": 0,
         "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 3,
-        "isEndpoint": true
       }
     ],
     [
@@ -332,25 +108,22 @@
         "isEndpoint": false
       },
       {
-        "type": "tunnel",
+        "type": "normal",
         "color": 0,
-        "isEndpoint": false,
-        "tunnelId": 2,
-        "tunnelColor": "#00FF00",
-        "tunnelActivatedColor": null
+        "isEndpoint": false
       },
       {
         "type": "normal",
-        "color": 2,
-        "isEndpoint": true
+        "color": 0,
+        "isEndpoint": false
       },
       {
         "type": "normal",
-        "color": 7,
-        "isEndpoint": true
+        "color": 0,
+        "isEndpoint": false
       },
       {
-        "type": "normal",
+        "type": "block",
         "color": 0,
         "isEndpoint": false
       },
@@ -373,11 +146,6 @@
       },
       {
         "type": "normal",
-        "color": 6,
-        "isEndpoint": true
-      },
-      {
-        "type": "normal",
         "color": 0,
         "isEndpoint": false
       },
@@ -386,23 +154,6 @@
         "color": 0,
         "isEndpoint": false
       },
-      {
-        "type": "normal",
-        "color": 3,
-        "isEndpoint": true
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      }
-    ],
-    [
       {
         "type": "normal",
         "color": 0,
@@ -413,8 +164,8 @@
         "color": 0,
         "isEndpoint": false,
         "bridgeColors": [
-          5,
-          4
+          7,
+          6
         ]
       },
       {
@@ -426,33 +177,23 @@
         "type": "normal",
         "color": 0,
         "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
       }
     ],
     [
       {
         "type": "normal",
-        "color": 5,
-        "isEndpoint": true
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
       },
       {
         "type": "normal",
@@ -473,7 +214,111 @@
         "isEndpoint": false
       },
       {
+        "type": "normal",
+        "color": 3,
+        "isEndpoint": true
+      },
+      {
         "type": "block",
+        "color": 0,
+        "isEndpoint": false
+      }
+    ],
+    [
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "tunnel",
+        "color": 0,
+        "isEndpoint": false,
+        "tunnelId": 1,
+        "tunnelColor": "#FF0000",
+        "tunnelActivatedColor": null
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 3,
+        "isEndpoint": true
+      }
+    ],
+    [
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 7,
+        "isEndpoint": true
+      },
+      {
+        "type": "normal",
+        "color": 6,
+        "isEndpoint": true
+      }
+    ],
+    [
+      {
+        "type": "normal",
+        "color": 5,
+        "isEndpoint": true
+      },
+      {
+        "type": "normal",
         "color": 0,
         "isEndpoint": false
       },
@@ -489,6 +334,161 @@
       },
       {
         "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "bridge",
+        "color": 0,
+        "isEndpoint": false,
+        "bridgeColors": [
+          6,
+          7
+        ]
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      }
+    ],
+    [
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 2,
+        "isEndpoint": true
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 4,
+        "isEndpoint": true
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "block",
+        "color": 0,
+        "isEndpoint": false
+      }
+    ],
+    [
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 6,
+        "isEndpoint": true
+      },
+      {
+        "type": "bridge",
+        "color": 0,
+        "isEndpoint": false,
+        "bridgeColors": [
+          6,
+          2
+        ]
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "tunnel",
+        "color": 0,
+        "isEndpoint": false,
+        "tunnelId": 1,
+        "tunnelColor": "#FF0000",
+        "tunnelActivatedColor": null
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "block",
+        "color": 0,
+        "isEndpoint": false
+      }
+    ],
+    [
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "tunnel",
+        "color": 0,
+        "isEndpoint": false,
+        "tunnelId": 2,
+        "tunnelColor": "#00FF00",
+        "tunnelActivatedColor": null
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "block",
         "color": 0,
         "isEndpoint": false
       }
@@ -505,6 +505,21 @@
         "isEndpoint": false
       },
       {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 1,
+        "isEndpoint": true
+      },
+      {
         "type": "block",
         "color": 0,
         "isEndpoint": false
@@ -516,335 +531,316 @@
       },
       {
         "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "block",
-        "color": 0,
-        "isEndpoint": false
+        "color": 1,
+        "isEndpoint": true
       }
     ]
   ],
   "solutionPaths": {
     "1": [
       [
-        5,
-        1
+        11,
+        7
       ],
       [
-        5,
-        2
+        11,
+        6
       ],
       [
-        5,
-        3
+        10,
+        6
+      ],
+      [
+        10,
+        5
+      ],
+      [
+        10,
+        4
+      ],
+      [
+        11,
+        4
       ]
     ],
     "2": [
       [
-        7,
-        4
+        0,
+        0
       ],
       [
-        6,
-        4
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        1
       ],
       [
         5,
-        4
+        1
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        10,
+        0
+      ],
+      [
+        10,
+        1
+      ],
+      [
+        10,
+        2
+      ],
+      [
+        9,
+        2
+      ],
+      [
+        8,
+        2
       ]
     ],
     "3": [
       [
-        8,
-        5
+        5,
+        7
       ],
       [
-        8,
-        4
+        5,
+        6
       ],
       [
-        8,
-        3
-      ],
-      [
-        7,
-        3
+        4,
+        6
       ]
     ],
     "4": [
       [
-        0,
-        7
-      ],
-      [
-        0,
-        6
-      ],
-      [
-        0,
+        8,
         5
       ],
       [
-        1,
-        5
-      ],
-      [
-        2,
-        5
-      ],
-      [
-        3,
-        5
-      ],
-      [
-        3,
+        8,
         4
       ],
       [
-        3,
-        3
-      ],
-      [
-        3,
-        2
-      ],
-      [
-        3,
-        1
-      ],
-      [
-        4,
-        1
-      ],
-      [
-        4,
-        0
-      ],
-      [
-        5,
-        0
+        7,
+        4
       ],
       [
         6,
-        0
+        4
       ],
       [
-        7,
-        0
+        5,
+        4
       ],
       [
-        8,
-        0
-      ],
-      [
-        8,
-        1
-      ],
-      [
-        9,
-        1
-      ],
-      [
-        10,
-        1
-      ],
-      [
-        11,
-        1
-      ],
-      [
-        11,
-        0
+        4,
+        4
       ]
     ],
     "5": [
       [
-        10,
+        7,
         0
       ],
       [
-        9,
+        6,
         0
       ],
       [
-        9,
+        5,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
         1
       ],
       [
-        9,
+        1,
         2
       ],
       [
-        9,
+        0,
+        2
+      ],
+      [
+        0,
         3
       ],
       [
-        9,
+        0,
         4
       ],
       [
-        9,
-        5
-      ],
-      [
-        9,
-        6
-      ],
-      [
-        8,
-        6
-      ],
-      [
-        7,
-        6
-      ],
-      [
-        6,
-        6
-      ],
-      [
-        5,
-        6
-      ],
-      [
-        4,
-        6
-      ],
-      [
-        4,
-        5
-      ],
-      [
-        4,
+        1,
         4
-      ],
-      [
-        4,
-        3
-      ],
-      [
-        4,
-        2
-      ],
-      [
-        5,
-        2
-      ],
-      [
-        6,
-        2
-      ],
-      [
-        6,
-        3
       ]
     ],
     "6": [
       [
-        8,
-        2
-      ],
-      [
-        7,
-        2
-      ],
-      [
-        7,
+        9,
         1
+      ],
+      [
+        9,
+        2
+      ],
+      [
+        9,
+        3
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        7,
+        3
       ],
       [
         6,
-        1
+        3
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        6,
+        7
       ]
     ],
     "7": [
       [
-        7,
-        5
-      ],
-      [
         6,
-        5
-      ],
-      [
-        5,
-        5
-      ],
-      [
-        5,
         6
       ],
       [
-        5,
-        7
-      ],
-      [
-        4,
-        7
-      ],
-      [
-        3,
-        7
-      ],
-      [
-        2,
-        7
-      ],
-      [
-        1,
-        7
-      ],
-      [
-        1,
+        7,
         6
       ],
       [
-        1,
+        8,
+        6
+      ],
+      [
+        9,
+        6
+      ],
+      [
+        9,
         5
       ],
       [
-        1,
+        9,
         4
-      ],
-      [
-        0,
-        4
-      ],
-      [
-        0,
-        3
-      ],
-      [
-        0,
-        2
-      ],
-      [
-        1,
-        2
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        1,
-        0
-      ],
-      [
-        0,
-        0
       ]
     ]
   },
@@ -857,6 +853,6 @@
     "hasBlend": true,
     "multiColorCount": 0,
     "tunnels": 2,
-    "generatedAt": "2026-05-21T04:22:20.904Z"
+    "generatedAt": "2026-05-21T04:38:00.576Z"
   }
 }

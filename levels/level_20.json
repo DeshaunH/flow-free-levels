@@ -5,13 +5,13 @@
     [
       {
         "type": "normal",
-        "color": 3,
+        "color": 5,
         "isEndpoint": true
       },
       {
         "type": "normal",
-        "color": 5,
-        "isEndpoint": true
+        "color": 0,
+        "isEndpoint": false
       },
       {
         "type": "block",
@@ -25,40 +25,8 @@
       },
       {
         "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 4,
+        "color": 2,
         "isEndpoint": true
-      }
-    ],
-    [
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
       },
       {
         "type": "block",
@@ -67,6 +35,43 @@
       }
     ],
     [
+      {
+        "type": "block",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      }
+    ],
+    [
+      {
+        "type": "block",
+        "color": 0,
+        "isEndpoint": false
+      },
       {
         "type": "normal",
         "color": 0,
@@ -84,18 +89,45 @@
       },
       {
         "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 4,
+        "color": 3,
         "isEndpoint": true
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      }
+    ],
+    [
+      {
+        "type": "normal",
+        "color": 1,
+        "isEndpoint": true
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "block",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
+      },
+      {
+        "type": "normal",
+        "color": 2,
+        "isEndpoint": true
+      },
+      {
+        "type": "normal",
+        "color": 0,
+        "isEndpoint": false
       }
     ],
     [
@@ -106,8 +138,8 @@
       },
       {
         "type": "normal",
-        "color": 3,
-        "isEndpoint": true
+        "color": 0,
+        "isEndpoint": false
       },
       {
         "type": "normal",
@@ -119,8 +151,8 @@
         "color": 0,
         "isEndpoint": false,
         "bridgeColors": [
-          2,
-          1
+          4,
+          3
         ]
       },
       {
@@ -130,38 +162,6 @@
       },
       {
         "type": "normal",
-        "color": 2,
-        "isEndpoint": true
-      }
-    ],
-    [
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "normal",
         "color": 0,
         "isEndpoint": false
       }
@@ -169,7 +169,7 @@
     [
       {
         "type": "normal",
-        "color": 2,
+        "color": 4,
         "isEndpoint": true
       },
       {
@@ -183,18 +183,18 @@
         "isEndpoint": false
       },
       {
-        "type": "block",
-        "color": 0,
-        "isEndpoint": false
-      },
-      {
-        "type": "block",
+        "type": "normal",
         "color": 0,
         "isEndpoint": false
       },
       {
         "type": "normal",
-        "color": 1,
+        "color": 3,
+        "isEndpoint": true
+      },
+      {
+        "type": "normal",
+        "color": 4,
         "isEndpoint": true
       }
     ]
@@ -202,40 +202,76 @@
   "solutionPaths": {
     "1": [
       [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
         2,
         1
       ],
       [
         2,
         2
-      ],
-      [
-        2,
-        3
-      ],
-      [
-        3,
-        3
-      ],
-      [
-        4,
-        3
-      ],
-      [
-        4,
-        4
-      ],
-      [
-        4,
-        5
-      ],
-      [
-        5,
-        5
       ]
     ],
     "2": [
       [
+        0,
+        4
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "3": [
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "4": [
+      [
         5,
         0
       ],
@@ -252,74 +288,34 @@
         2
       ],
       [
-        3,
-        2
-      ],
-      [
-        3,
+        4,
         3
       ],
       [
-        3,
+        4,
         4
       ],
       [
-        3,
-        5
-      ]
-    ],
-    "3": [
-      [
-        3,
-        1
-      ],
-      [
-        3,
-        0
-      ],
-      [
-        2,
-        0
-      ],
-      [
-        1,
-        0
-      ],
-      [
-        0,
-        0
-      ]
-    ],
-    "4": [
-      [
-        2,
+        4,
         5
       ],
       [
-        2,
-        4
-      ],
-      [
-        1,
-        4
-      ],
-      [
-        0,
-        4
-      ],
-      [
-        0,
+        5,
         5
       ]
     ],
     "5": [
       [
         0,
-        3
+        0
+      ],
+      [
+        0,
+        1
       ],
       [
         1,
-        3
+        1
       ],
       [
         1,
@@ -327,11 +323,11 @@
       ],
       [
         1,
-        1
+        3
       ],
       [
         0,
-        1
+        3
       ]
     ]
   },
@@ -339,11 +335,11 @@
     "cols": 6,
     "rows": 6,
     "colors": 5,
-    "walls": 6,
+    "walls": 7,
     "bridges": 1,
     "hasBlend": false,
     "multiColorCount": 0,
     "tunnels": 0,
-    "generatedAt": "2026-05-21T04:22:20.889Z"
+    "generatedAt": "2026-05-21T04:38:00.540Z"
   }
 }
