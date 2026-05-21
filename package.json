@@ -1,0 +1,13 @@
+{
+  "name": "flow-free-generate",
+  "version": "1.0.0",
+  "description": "TypeScript level generator and sorter",
+  "scripts": {
+    "generate": "ts-node scripts/build_levels.ts"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
