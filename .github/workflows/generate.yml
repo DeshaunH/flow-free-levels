@@ -27,11 +27,15 @@ jobs:
         run: npm install
 
       - name: Generate Levels
-        run: npm run generate
+        run: |
+          TIMESTAMP=$(TZ='Asia/Tokyo' date +'%Y%m%d%H%M')
+          DIR_NAME="levels_$TIMESTAMP"
+          echo "DIR_NAME=$DIR_NAME" >> $GITHUB_ENV
+          LEVELS_DIR=$DIR_NAME npm run generate
 
       - name: Commit Generated Levels
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add levels/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-generate 100 progressive levels" && git push)
+          git add ${{ env.DIR_NAME }}/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-generate 100 progressive levels (${{ env.DIR_NAME }})" && git push)

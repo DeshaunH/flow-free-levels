@@ -3,7 +3,9 @@ import * as path from 'path';
 import { generateCustomPuzzle, GenConfig } from './logic';
 import { CellData, Position } from './types';
 
-const OUTPUT_DIR = path.join(__dirname, '../levels');
+const dirName = process.env.LEVELS_DIR || 'levels';
+const OUTPUT_DIR = path.join(__dirname, '..', dirName);
+
 if (!fs.existsSync(OUTPUT_DIR)) {
     fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 }
