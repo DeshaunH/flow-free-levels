@@ -5,6 +5,7 @@ on:
     branches: [ "main", "master" ]
     paths:
       - 'scripts/**'
+      - '.github/workflows/**'
   workflow_dispatch:
 
 jobs:
