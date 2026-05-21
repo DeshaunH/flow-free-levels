@@ -20,8 +20,8 @@ const POOL_TEMPLATES: GenConfig[] = [
     { cols: 7, rows: 7, colors: 5, walls: 3, bridges: 0, hasBlend: true, multiColorCount: 0, tunnels: 0 },
     { cols: 7, rows: 7, colors: 6, walls: 4, bridges: 1, hasBlend: true, multiColorCount: 0, tunnels: 0 },
     { cols: 8, rows: 8, colors: 6, walls: 4, bridges: 2, hasBlend: true, multiColorCount: 0, tunnels: 0 },
-    { cols: 8, rows: 10, colors: 7, walls: 5, bridges: 2, hasBlend: true, multiColorCount: 0, tunnels: 1 },
-    { cols: 8, rows: 12, colors: 7, walls: 6, bridges: 3, hasBlend: true, multiColorCount: 0, tunnels: 2 }
+    { cols: 8, rows: 10, colors: 7, walls: 5, bridges: 2, hasBlend: true, multiColorCount: 0, tunnels: 0 },
+    { cols: 8, rows: 12, colors: 7, walls: 6, bridges: 3, hasBlend: true, multiColorCount: 0, tunnels: 0 }
 ];
 
 function analyzePuzzle(grid: CellData[][]) {
@@ -53,8 +53,8 @@ function getRequirementForLevel(level: number) {
     if (level >= 11 && level <= 20) return { r: 6, c: 6, exact: ['bridge'] };
     if (level >= 21 && level <= 30) return { r: 7, c: 7, exact: ['blend'] };
     if (level >= 31 && level <= 40) return { r: 8, c: 8, exact: ['bridge', 'blend'] };
-    if (level >= 41 && level <= 60) return { r: 10, c: 8, exact: ['bridge', 'blend', 'tunnel'] };
-    if (level >= 61 && level <= 100) return { r: 12, c: 8, exact: ['bridge', 'blend', 'tunnel'] };
+    if (level >= 41 && level <= 60) return { r: 10, c: 8, exact: ['bridge', 'blend' ] };
+    if (level >= 61 && level <= 100) return { r: 12, c: 8, exact: ['bridge', 'blend'] };
     return { r: 12, c: 8, exact: ['bridge', 'blend'] };
 }
 
